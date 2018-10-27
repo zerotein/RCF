@@ -1,4 +1,7 @@
-*This is README file for RCF.pl.
+*This is README file for Residue Contact Frequency described in the following paper
+
+Binding interface prediction by combining protein–protein docking results
+H Hwang, T Vreven, Z Weng - Proteins: Structure, Function, and Bioinformatics, 2014
 
 RCF.pl calculates Residue Contact Frequency (RCF) of each residue for a pair of protein structures using ZDOCK 3.0 output file.
 It requires A ZDOCK 3.0 output file and ZDOCK input protein structures that were used for ZDOCK run.
@@ -6,7 +9,8 @@ The ZDOCK input protein structure files and ZDOCK output file must be at the cur
 
 *Construct executables
 
-Source codes are under the source directory and executables can be created by following command.
+The source codes are written in c++ and perl.
+The c++ source codes are under the source directory and executables can be created by following command.
 
 >make
 
